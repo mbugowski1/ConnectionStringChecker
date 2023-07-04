@@ -59,15 +59,15 @@ namespace ConnectionStringChecker
 
             switch (Console.ReadKey().KeyChar)
             {
-                case '2':
+                case '1':
                     Console.WriteLine();
                     GetServerType();
                     break;
-                case '3':
+                case '2':
                     Console.WriteLine();
                     SetConnectionString();
                     break;
-                case '1':
+                case '3':
                     Console.WriteLine();
                     if (CheckConnection())
                         Console.WriteLine("Powodzenie!");
